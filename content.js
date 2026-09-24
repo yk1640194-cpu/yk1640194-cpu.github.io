@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "tvc-add4-20260924-1135",
+  "packageVersion": "tvc-swap-boj-feiyue-20260924-1150",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -246,23 +246,23 @@ window.portfolioContent = {
         ]
       },
       {
-        "id": "project-1790041471723",
-        "title": "《BOJ H100 头戴式耳机》",
+        "id": "project-1790041473338",
+        "title": "《飞跃帆布鞋》",
         "category": "TVC广告",
-        "description": "本片围绕头戴式耳机展开创作，核心目的是将耳机从单一的听音设备，转化为年轻人在城市中建立个人节奏与情绪空间的媒介。创意从“戴上耳机，暂时与外界抽离”这一真实使用感受出发，以街头行走作为叙事起点，通过佩戴前后的状态变化，让产品自然成为情绪转折的触发点。\n\n镜头中穿插耳罩、金属伸缩臂、转轴与实体按键等细节特写，强化产品结构与材质质感；同时以行走、仰头、跳跃等更自由的动作表现音乐带来的松弛感，并用城市街景与轻盈意象拓展产品的生活方式属性。希望最终让观众感受到：BOJ 不只提供声音，更帮助使用者在喧闹城市中找到属于自己的节奏。\n",
+        "description": "本片围绕飞跃帆布鞋展开创作，核心目的是跳脱传统鞋类广告对舒适度与外观的单一展示，将“飞跃”本身转化为一种年轻、不被规则定义的行动态度。创意从品牌名称中的“LEAP”出发，以略带荒诞感的办公室场景制造秩序与个性的反差：冷蓝空间、规整环境与女孩夸张双马尾、蓝色墨镜形成视觉冲突，让人物成为“不愿跟随”的年轻表达。\n\n镜头通过行走、鞋履特写、咖啡飞溅等动态瞬间强化帆布鞋的轻盈与活力，并以“Why follow when you can leap”完成概念收束。希望让飞跃不仅是一双日常帆布鞋，更成为年轻人突破惯性、表达自我与主动向前的态度符号。\n",
         "image": "",
-        "video": "assets/portfolio-media/work-9-1-BOJ-_-_20260911_V001.mp4",
+        "video": "assets/portfolio-media/work-13-1-_-_20260821_V002.mp4",
         "mediaKey": "",
-        "mediaName": "BOJ头戴式耳机_康钰_20260911_V001.mp4",
+        "mediaName": "飞跃帆布鞋_康钰_20260821_V002.mp4",
         "mediaType": "video",
         "mediaKeys": [
           {
-            "key": "project-1790041471723-1790041586311-cyjv4381pv5-BOJ头戴式耳机_康钰_20260911_V001.mp4",
-            "name": "BOJ头戴式耳机_康钰_20260911_V001.mp4",
-            "originalName": "BOJ头戴式耳机_康钰_20260911_V001.mp4",
+            "key": "project-1790041473338-1790041620036-3vmzycn6sfn-飞跃帆布鞋_康钰_20260821_V002.mp4",
+            "name": "飞跃帆布鞋_康钰_20260821_V002.mp4",
+            "originalName": "飞跃帆布鞋_康钰_20260821_V002.mp4",
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
-            "src": "assets/portfolio-media/work-9-1-BOJ-_-_20260911_V001.mp4"
+            "src": "assets/portfolio-media/work-13-1-_-_20260821_V002.mp4"
           }
         ]
       },
@@ -330,23 +330,23 @@ window.portfolioContent = {
         ]
       },
       {
-        "id": "project-1790041473338",
-        "title": "《飞跃帆布鞋》",
+        "id": "project-1790041471723",
+        "title": "《BOJ H100 头戴式耳机》",
         "category": "TVC广告",
-        "description": "本片围绕飞跃帆布鞋展开创作，核心目的是跳脱传统鞋类广告对舒适度与外观的单一展示，将“飞跃”本身转化为一种年轻、不被规则定义的行动态度。创意从品牌名称中的“LEAP”出发，以略带荒诞感的办公室场景制造秩序与个性的反差：冷蓝空间、规整环境与女孩夸张双马尾、蓝色墨镜形成视觉冲突，让人物成为“不愿跟随”的年轻表达。\n\n镜头通过行走、鞋履特写、咖啡飞溅等动态瞬间强化帆布鞋的轻盈与活力，并以“Why follow when you can leap”完成概念收束。希望让飞跃不仅是一双日常帆布鞋，更成为年轻人突破惯性、表达自我与主动向前的态度符号。\n",
+        "description": "本片围绕头戴式耳机展开创作，核心目的是将耳机从单一的听音设备，转化为年轻人在城市中建立个人节奏与情绪空间的媒介。创意从“戴上耳机，暂时与外界抽离”这一真实使用感受出发，以街头行走作为叙事起点，通过佩戴前后的状态变化，让产品自然成为情绪转折的触发点。\n\n镜头中穿插耳罩、金属伸缩臂、转轴与实体按键等细节特写，强化产品结构与材质质感；同时以行走、仰头、跳跃等更自由的动作表现音乐带来的松弛感，并用城市街景与轻盈意象拓展产品的生活方式属性。希望最终让观众感受到：BOJ 不只提供声音，更帮助使用者在喧闹城市中找到属于自己的节奏。\n",
         "image": "",
-        "video": "assets/portfolio-media/work-13-1-_-_20260821_V002.mp4",
+        "video": "assets/portfolio-media/work-9-1-BOJ-_-_20260911_V001.mp4",
         "mediaKey": "",
-        "mediaName": "飞跃帆布鞋_康钰_20260821_V002.mp4",
+        "mediaName": "BOJ头戴式耳机_康钰_20260911_V001.mp4",
         "mediaType": "video",
         "mediaKeys": [
           {
-            "key": "project-1790041473338-1790041620036-3vmzycn6sfn-飞跃帆布鞋_康钰_20260821_V002.mp4",
-            "name": "飞跃帆布鞋_康钰_20260821_V002.mp4",
-            "originalName": "飞跃帆布鞋_康钰_20260821_V002.mp4",
+            "key": "project-1790041471723-1790041586311-cyjv4381pv5-BOJ头戴式耳机_康钰_20260911_V001.mp4",
+            "name": "BOJ头戴式耳机_康钰_20260911_V001.mp4",
+            "originalName": "BOJ头戴式耳机_康钰_20260911_V001.mp4",
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
-            "src": "assets/portfolio-media/work-13-1-_-_20260821_V002.mp4"
+            "src": "assets/portfolio-media/work-9-1-BOJ-_-_20260911_V001.mp4"
           }
         ]
       },
