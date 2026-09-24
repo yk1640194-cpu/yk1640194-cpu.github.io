@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "tvc-swap-boj-feiyue-20260924-1150",
+  "packageVersion": "heqin-trace-20260924-1530",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -85,7 +85,7 @@ window.portfolioContent = {
         "image": "",
         "video": "assets/portfolio-media/work-4-1-_-_20260918_V002.mp4",
         "mediaKey": "",
-        "mediaName": "《和亲》_康钰_20260918_V002.mp4",
+        "mediaName": "《和亲》_康钰_20260918_V002.mp4、男主角色设定.png、男主母亲.png、女主角色设定.png、女主母亲.png、微信图片_20260924140848_882_2.png、微信图片_20260924142145_886_2.png、微信图片_20260924142204_887_2.png、微信图片_20260924142219_888_2.png、微信图片_20260924143537_898_2.png",
         "mediaType": "video",
         "mediaKeys": [
           {
@@ -95,6 +95,78 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-4-1-_-_20260918_V002.mp4"
+          },
+          {
+            "key": "project-1790041464654-trace-1-男主角色设定.png",
+            "name": "男主角色设定.png",
+            "originalName": "男主角色设定.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-2-trace01.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-2-男主母亲.png",
+            "name": "男主母亲.png",
+            "originalName": "男主母亲.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-3-trace02.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-3-女主角色设定.png",
+            "name": "女主角色设定.png",
+            "originalName": "女主角色设定.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-4-trace03.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-4-女主母亲.png",
+            "name": "女主母亲.png",
+            "originalName": "女主母亲.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-5-trace04.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-5-微信图片_20260924140848_882_2.png",
+            "name": "微信图片_20260924140848_882_2.png",
+            "originalName": "微信图片_20260924140848_882_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-6-trace05.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-6-微信图片_20260924142145_886_2.png",
+            "name": "微信图片_20260924142145_886_2.png",
+            "originalName": "微信图片_20260924142145_886_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-7-trace06.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-7-微信图片_20260924142204_887_2.png",
+            "name": "微信图片_20260924142204_887_2.png",
+            "originalName": "微信图片_20260924142204_887_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-8-trace07.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-8-微信图片_20260924142219_888_2.png",
+            "name": "微信图片_20260924142219_888_2.png",
+            "originalName": "微信图片_20260924142219_888_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-9-trace08.webp"
+          },
+          {
+            "key": "project-1790041464654-trace-9-微信图片_20260924143537_898_2.png",
+            "name": "微信图片_20260924143537_898_2.png",
+            "originalName": "微信图片_20260924143537_898_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-4-10-trace09.webp"
           }
         ]
       },
