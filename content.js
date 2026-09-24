@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "btw-trace-20260924-1600",
+  "packageVersion": "bxh-trace-20260924-1610",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -480,7 +480,7 @@ window.portfolioContent = {
         "image": "",
         "video": "assets/portfolio-media/work-8-1-_-_20260903_V003.mp4",
         "mediaKey": "",
-        "mediaName": "伯希和冲锋衣_康钰_20260903_V003.mp4",
+        "mediaName": "伯希和冲锋衣_康钰_20260903_V003.mp4、a4787f63-8cdc-4a28-aea8-10cb74b4d154.png、微信图片_20260903172454_489_2.png、微信图片_20260903172540_490_2.png、微信图片_20260903172615_491_2.png",
         "mediaType": "video",
         "mediaKeys": [
           {
@@ -490,6 +490,38 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-8-1-_-_20260903_V003.mp4"
+          },
+          {
+            "key": "project-1790041471307-trace-1-a4787f63-8cdc-4a28-aea8-10cb74b4d154.png",
+            "name": "a4787f63-8cdc-4a28-aea8-10cb74b4d154.png",
+            "originalName": "a4787f63-8cdc-4a28-aea8-10cb74b4d154.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-8-2-trace01.webp"
+          },
+          {
+            "key": "project-1790041471307-trace-2-微信图片_20260903172454_489_2.png",
+            "name": "微信图片_20260903172454_489_2.png",
+            "originalName": "微信图片_20260903172454_489_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-8-3-trace02.webp"
+          },
+          {
+            "key": "project-1790041471307-trace-3-微信图片_20260903172540_490_2.png",
+            "name": "微信图片_20260903172540_490_2.png",
+            "originalName": "微信图片_20260903172540_490_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-8-4-trace03.webp"
+          },
+          {
+            "key": "project-1790041471307-trace-4-微信图片_20260903172615_491_2.png",
+            "name": "微信图片_20260903172615_491_2.png",
+            "originalName": "微信图片_20260903172615_491_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-8-5-trace04.webp"
           }
         ]
       },
