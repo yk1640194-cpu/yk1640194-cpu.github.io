@@ -1830,3 +1830,51 @@ button.visual-detail-item {
     animation: none;
   }
 }
+
+/* 灯箱左右翻页 */
+.lightbox-nav {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 30;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(17, 17, 17, 0.55);
+  color: #fff;
+  font-size: 24px;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background 150ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lightbox-nav:hover {
+  background: rgba(17, 17, 17, 0.8);
+}
+
+.lightbox-nav--prev {
+  left: max(14px, env(safe-area-inset-left));
+}
+
+.lightbox-nav--next {
+  right: max(14px, env(safe-area-inset-right));
+}
+
+.lightbox-counter {
+  position: fixed;
+  left: 50%;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 30;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(17, 17, 17, 0.55);
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  pointer-events: none;
+}

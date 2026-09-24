@@ -75,6 +75,8 @@
   let lightboxY = 0;
   let lightboxDragging = false;
   let lightboxDragStart = { x: 0, y: 0 };
+  let lightboxList = [];
+  let lightboxIndex = 0;
   let lightboxTapStart = { x: 0, y: 0 };
   let modalScale = 1;
   let modalX = 0;
@@ -929,7 +931,7 @@
     }
   }
 
-  function createTraceImageItem(project, media) {
+  function createTraceImageItem(project, media, list, index) {
     const item = document.createElement("button");
     item.className = "visual-detail-item";
     item.type = "button";
@@ -945,7 +947,7 @@
     img.src = src;
     img.alt = project.title;
     applyMediaOrientation(img);
-    item.addEventListener("click", () => openMediaLightbox({ src, type: "image", alt: project.title }));
+    item.addEventListener("click", () => openMediaLightbox(list ? list[index] : { src, type: "image", alt: project.title }, list));
     item.appendChild(img);
     return item;
   }
@@ -981,7 +983,8 @@
       title.textContent = "工作留痕";
       const grid = document.createElement("div");
       grid.className = "visual-detail-grid trace-grid";
-      traceImages.forEach((media) => grid.appendChild(createTraceImageItem(project, media)));
+      const lightboxItems = traceImages.map((media) => ({ src: mediaObjectUrl(media), type: "image", alt: project.title }));
+      traceImages.forEach((media, idx) => grid.appendChild(createTraceImageItem(project, media, lightboxItems, idx)));
       wrap.append(title, grid);
     }
 
@@ -996,6 +999,10 @@
     if (hasDetailLayout(project) && project.mediaKeys?.length > 1) {
       const wrap = document.createElement("div");
       wrap.className = "visual-detail-grid";
+      const lightboxItems = project.mediaKeys
+        .filter((m) => m.type !== "video" && mediaObjectUrl(m))
+        .map((m) => ({ src: mediaObjectUrl(m), type: "image", alt: project.title }));
+      let lightboxPos = -1;
       project.mediaKeys.forEach((media) => {
         const item = document.createElement(media.type === "video" ? "div" : "button");
         item.className = "visual-detail-item";
@@ -1026,7 +1033,8 @@
           img.src = src;
           img.alt = project.title;
           applyMediaOrientation(img);
-          item.addEventListener("click", () => openMediaLightbox({ src, type: "image", alt: project.title }));
+          lightboxPos += 1;
+          item.addEventListener("click", () => openMediaLightbox(lightboxItems[lightboxPos] || { src, type: "image", alt: project.title }, lightboxItems));
           item.appendChild(img);
         }
         wrap.appendChild(item);
@@ -1037,12 +1045,20 @@
     return createMedia(project);
   }
 
-  function openMediaLightbox(media) {
+  function openMediaLightbox(media, list) {
+    lightboxList = Array.isArray(list) && list.length ? list : [media];
+    lightboxIndex = Math.max(0, lightboxList.findIndex((item) => item.src === media.src));
+    renderMediaLightbox();
+  }
+
+  function renderMediaLightbox() {
     const lightbox = $("[data-media-lightbox]");
     const body = $("[data-media-lightbox-body]");
     body.replaceChildren();
     resetLightboxZoom();
-
+    lightbox.querySelectorAll(".lightbox-nav, .lightbox-counter").forEach((el) => el.remove());
+    const media = lightboxList[lightboxIndex] || lightboxList[0];
+    if (!media) return;
     if (media.type === "video") {
       const video = createVideo(media.src, media.alt || "作品视频");
       video.autoplay = true;
@@ -1055,9 +1071,38 @@
       applyMediaOrientation(img);
       body.appendChild(img);
     }
-
+    if (lightboxList.length > 1) {
+      const prevBtn = document.createElement("button");
+      prevBtn.type = "button";
+      prevBtn.className = "lightbox-nav lightbox-nav--prev";
+      prevBtn.setAttribute("aria-label", "上一张");
+      prevBtn.textContent = "‹";
+      prevBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        stepMediaLightbox(-1);
+      });
+      const nextBtn = document.createElement("button");
+      nextBtn.type = "button";
+      nextBtn.className = "lightbox-nav lightbox-nav--next";
+      nextBtn.setAttribute("aria-label", "下一张");
+      nextBtn.textContent = "›";
+      nextBtn.addEventListener("click", (event) => {
+        event.stopPropagation();
+        stepMediaLightbox(1);
+      });
+      const counter = document.createElement("span");
+      counter.className = "lightbox-counter";
+      counter.textContent = `${lightboxIndex + 1} / ${lightboxList.length}`;
+      lightbox.append(prevBtn, nextBtn, counter);
+    }
     lightbox.hidden = false;
     document.body.classList.add("lightbox-open");
+  }
+
+  function stepMediaLightbox(delta) {
+    if (lightboxList.length < 2) return;
+    lightboxIndex = (lightboxIndex + delta + lightboxList.length) % lightboxList.length;
+    renderMediaLightbox();
   }
 
   function renderLightboxZoom() {
@@ -2001,6 +2046,29 @@
       renderModalZoom();
     });
     $("[data-media-lightbox-close]").addEventListener("click", closeMediaLightbox);
+    let lightboxSwipeX = 0;
+    let lightboxSwipeY = 0;
+    $("[data-media-lightbox]").addEventListener(
+      "touchstart",
+      (event) => {
+        lightboxSwipeX = event.touches[0].clientX;
+        lightboxSwipeY = event.touches[0].clientY;
+      },
+      { passive: true }
+    );
+    $("[data-media-lightbox]").addEventListener(
+      "touchend",
+      (event) => {
+        if (lightboxList.length < 2 || lightboxScale > 1.01) return;
+        const touch = event.changedTouches[0];
+        const dx = touch.clientX - lightboxSwipeX;
+        const dy = touch.clientY - lightboxSwipeY;
+        if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+          stepMediaLightbox(dx < 0 ? 1 : -1);
+        }
+      },
+      { passive: true }
+    );
     $("[data-media-lightbox]").addEventListener("click", (event) => {
       if (event.target.matches("[data-media-lightbox]")) closeMediaLightbox();
     });
@@ -2046,6 +2114,14 @@
       lightboxDragging = false;
       renderLightboxZoom();
     });
+      if (event.key === "ArrowLeft" && !$("[data-media-lightbox]").hidden) {
+        stepMediaLightbox(-1);
+        return;
+      }
+      if (event.key === "ArrowRight" && !$("[data-media-lightbox]").hidden) {
+        stepMediaLightbox(1);
+        return;
+      }
     document.addEventListener("keydown", (event) => {
       if (event.key === "Escape") {
         if (!$("[data-media-lightbox]").hidden) {
