@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AIGC portfolio template" />
+    <title>AIGC Portfolio Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=mobile-fix-20260924" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a class="brand-mark" href="#home" aria-label="回到首页">
+        <span></span>
+        <span data-site-name>AIGC Portfolio</span>
+      </a>
+      <button class="menu-pill" type="button" data-editor-open aria-label="打开编辑面板">
+        <span class="menu-plus">+</span>
+        <span data-menu-label>菜单</span>
+      </button>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#about" data-nav-about>关于我</a>
+        <a href="#gallery" data-nav-gallery>查看作品</a>
+      </nav>
+      <div class="hero-badge" data-hero-badge>Generative AI</div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-reveal-background" data-hero-reveal-background>
+            <div class="hero-tech-layer hero-tech-base"></div>
+            <div class="hero-tech-layer hero-tech-reveal" data-hero-reveal-layer></div>
+          </div>
+          <div class="hero-mobile-portrait" data-hero-mobile-portrait></div>
+          <div class="hero-grid"></div>
+          <div class="hero-lattice"></div>
+        </div>
+        <div class="hero-visual" data-hero-visual>
+          <span></span>
+        </div>
+        <input class="sr-only-file" type="file" accept="image/*" data-hero-image-picker />
+        <div class="hero-content">
+          <p class="eyebrow" data-hero-kicker>Portfolio Template</p>
+          <h1 data-hero-title>你的姓名 / 品牌名</h1>
+          <p class="hero-subtitle" data-hero-subtitle>一句话介绍你的创作方向、能力重点或作品集定位。</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#gallery">查看作品</a>
+          </div>
+        </div>
+        <div class="hero-meta" data-hero-tags></div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-label" data-about-label>About</div>
+        <div class="about-layout">
+          <div>
+            <h2 data-about-title>关于我</h2>
+            <p class="lead" data-about-lead>这里写你的核心介绍。</p>
+            <p data-about-body>这里写更完整的经历、擅长方向、服务内容或创作理念。</p>
+            <div class="about-skills">
+              <div class="skills-grid skills-grid--about" data-skills></div>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-placeholder" data-profile-placeholder>放置头像或主视觉</div>
+            <input class="sr-only-file" type="file" accept="image/*" data-profile-image-picker />
+            <dl data-profile-facts></dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="section-header">
+          <div>
+            <div class="section-label" data-gallery-label>Works</div>
+            <h2 data-gallery-title hidden></h2>
+          </div>
+          <div class="tabs" data-category-tabs></div>
+        </div>
+        <div class="gallery-sections" data-gallery></div>
+      </section>
+
+    </main>
+
+    <div class="modal" data-modal hidden>
+      <button class="modal-close" type="button" data-modal-close aria-label="关闭">×</button>
+      <div class="modal-card">
+        <div class="modal-media" data-modal-media></div>
+        <div class="modal-info">
+          <p class="modal-category" data-modal-category></p>
+          <h3 data-modal-title></h3>
+          <p data-modal-desc></p>
+        </div>
+      </div>
+    </div>
+    <div class="media-lightbox" data-media-lightbox hidden>
+      <button class="modal-close" type="button" data-media-lightbox-close aria-label="关闭放大图片">×</button>
+      <div class="media-lightbox-body" data-media-lightbox-body></div>
+    </div>
+
+    <aside class="editor-panel" data-editor hidden>
+      <div class="editor-head">
+        <div>
+          <p>编辑模式</p>
+          <h2>作品内容</h2>
+        </div>
+        <button type="button" data-editor-close aria-label="关闭编辑面板">×</button>
+      </div>
+      <div class="editor-body" data-editor-body></div>
+      <div class="editor-actions">
+        <button type="button" class="button button-dark" data-export-site>导出发布包</button>
+        <button type="button" class="button button-light" data-editor-reset>恢复占位内容</button>
+      </div>
+    </aside>
+    <div class="editor-backdrop" data-editor-backdrop hidden></div>
+
+    <script src="content.js?v=mouse-detail-20260924"></script>
+    <script src="app.js?v=mouse-detail-20260924"></script>
+    <script src="hero-reveal.js?v=mobile-fix-20260924"></script>
+    <script src="card-glow.js?v=portfolio-card-glow-20260914"></script>
+    <script src="target-cursor.js?v=portfolio-target-cursor-20260914"></script>
+  </body>
+</html>
