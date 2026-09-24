@@ -1,5 +1,5 @@
 {
-  "packageVersion": "bxh-trace-20260924-1610",
+  "packageVersion": "feiyue-trace-20260924-1620",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -533,7 +533,7 @@
         "image": "",
         "video": "assets/portfolio-media/work-13-1-_-_20260821_V002.mp4",
         "mediaKey": "",
-        "mediaName": "飞跃帆布鞋_康钰_20260821_V002.mp4",
+        "mediaName": "飞跃帆布鞋_康钰_20260821_V002.mp4、产品.png、角色1.png、角色2.png、微信图片_20260924152418_908_2.png、{2D61E2DC-D167-4702-A9B7-9AF454F11F43}.png、{37A52805-8104-4F2C-9C36-DD0D295AED62}.png、{DEEF2514-6C5A-4A82-B082-F98FDE6BC716}.png、{E23FA63C-4580-4CDA-A93F-9DCCF1944C71}.png",
         "mediaType": "video",
         "mediaKeys": [
           {
@@ -543,6 +543,70 @@
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-13-1-_-_20260821_V002.mp4"
+          },
+          {
+            "key": "project-1790041473338-trace-1-产品.png",
+            "name": "产品.png",
+            "originalName": "产品.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-2-trace01.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-2-角色1.png",
+            "name": "角色1.png",
+            "originalName": "角色1.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-3-trace02.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-3-角色2.png",
+            "name": "角色2.png",
+            "originalName": "角色2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-4-trace03.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-4-微信图片_20260924152418_908_2.png",
+            "name": "微信图片_20260924152418_908_2.png",
+            "originalName": "微信图片_20260924152418_908_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-5-trace04.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-5-{2D61E2DC-D167-4702-A9B7-9AF454F11F43}.png",
+            "name": "{2D61E2DC-D167-4702-A9B7-9AF454F11F43}.png",
+            "originalName": "{2D61E2DC-D167-4702-A9B7-9AF454F11F43}.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-6-trace05.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-6-{37A52805-8104-4F2C-9C36-DD0D295AED62}.png",
+            "name": "{37A52805-8104-4F2C-9C36-DD0D295AED62}.png",
+            "originalName": "{37A52805-8104-4F2C-9C36-DD0D295AED62}.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-7-trace06.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-7-{DEEF2514-6C5A-4A82-B082-F98FDE6BC716}.png",
+            "name": "{DEEF2514-6C5A-4A82-B082-F98FDE6BC716}.png",
+            "originalName": "{DEEF2514-6C5A-4A82-B082-F98FDE6BC716}.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-8-trace07.webp"
+          },
+          {
+            "key": "project-1790041473338-trace-8-{E23FA63C-4580-4CDA-A93F-9DCCF1944C71}.png",
+            "name": "{E23FA63C-4580-4CDA-A93F-9DCCF1944C71}.png",
+            "originalName": "{E23FA63C-4580-4CDA-A93F-9DCCF1944C71}.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-13-9-trace08.webp"
           }
         ]
       },
