@@ -265,6 +265,10 @@
   function isVideoMedia(media) {
     return media?.type === "video" || /\.(mp4|mov|m4v|webm)$/i.test(media?.name || "");
   }
+  function hasTraceMedia(project) {
+    return (isAiVideoProject(project) || project.category === "TVC广告") &&
+      projectMedias(project).some((media) => !isVideoMedia(media));
+  }
 
   function projectMedias(project) {
     if (project.mediaKeys?.length) return project.mediaKeys;
@@ -813,7 +817,7 @@
   }
 
   function hasExpandedDetail(project) {
-    return hasDetailLayout(project) || (isAiVideoProject(project) && projectMedias(project).length > 1);
+    return hasDetailLayout(project) || (isAiVideoProject(project) && projectMedias(project).length > 1) || hasTraceMedia(project);
   }
 
   function applyMediaOrientation(media) {
@@ -985,7 +989,7 @@
   }
 
   function createDetailMedia(project) {
-    if (isAiVideoProject(project) && projectMedias(project).length > 1) {
+    if ((isAiVideoProject(project) && projectMedias(project).length > 1) || hasTraceMedia(project)) {
       return createAiVideoDetailMedia(project);
     }
 

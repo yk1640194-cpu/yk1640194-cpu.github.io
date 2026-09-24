@@ -1,5 +1,5 @@
 {
-  "packageVersion": "bailu-trace-20260924-1555",
+  "packageVersion": "btw-trace-20260924-1600",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -395,7 +395,7 @@
         "image": "",
         "video": "assets/portfolio-media/work-7-1-_-_20260916_V002.mp4",
         "mediaKey": "",
-        "mediaName": "服装宣发_康钰_20260916_V002.mp4",
+        "mediaName": "服装宣发_康钰_20260916_V002.mp4、1.png、3.png、4.png、6.png、8.png、微信图片_20260924144528_901_2.png、微信图片_20260924144737_902_2.png、微信图片_20260924144829_903_2.png",
         "mediaType": "video",
         "mediaKeys": [
           {
@@ -405,6 +405,70 @@
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-7-1-_-_20260916_V002.mp4"
+          },
+          {
+            "key": "project-1790041470739-trace-1-1.png",
+            "name": "1.png",
+            "originalName": "1.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-2-trace01.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-2-3.png",
+            "name": "3.png",
+            "originalName": "3.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-3-trace02.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-3-4.png",
+            "name": "4.png",
+            "originalName": "4.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-4-trace03.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-4-6.png",
+            "name": "6.png",
+            "originalName": "6.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-5-trace04.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-5-8.png",
+            "name": "8.png",
+            "originalName": "8.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-6-trace05.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-6-微信图片_20260924144528_901_2.png",
+            "name": "微信图片_20260924144528_901_2.png",
+            "originalName": "微信图片_20260924144528_901_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-7-trace06.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-7-微信图片_20260924144737_902_2.png",
+            "name": "微信图片_20260924144737_902_2.png",
+            "originalName": "微信图片_20260924144737_902_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-8-trace07.webp"
+          },
+          {
+            "key": "project-1790041470739-trace-8-微信图片_20260924144829_903_2.png",
+            "name": "微信图片_20260924144829_903_2.png",
+            "originalName": "微信图片_20260924144829_903_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-7-9-trace08.webp"
           }
         ]
       },
