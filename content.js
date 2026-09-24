@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "fengbaoliu-trace-20260924-1540",
+  "packageVersion": "bailu-trace-20260924-1555",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -263,7 +263,7 @@ window.portfolioContent = {
         "image": "",
         "video": "assets/portfolio-media/work-3-1-_-_20260912_V001.mp4",
         "mediaKey": "",
-        "mediaName": "《二十四节气 · 白露》_康钰_20260912_V001.mp4",
+        "mediaName": "《二十四节气 · 白露》_康钰_20260912_V001.mp4、禾青.png、露娘.png、青岚.png、微信图片_20260924143925_899_2.png、微信图片_20260924144359_900_2.png、小满.png",
         "mediaType": "video",
         "mediaKeys": [
           {
@@ -273,6 +273,54 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-3-1-_-_20260912_V001.mp4"
+          },
+          {
+            "key": "project-1790041463988-trace-1-禾青.png",
+            "name": "禾青.png",
+            "originalName": "禾青.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-3-2-trace01.webp"
+          },
+          {
+            "key": "project-1790041463988-trace-2-露娘.png",
+            "name": "露娘.png",
+            "originalName": "露娘.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-3-3-trace02.webp"
+          },
+          {
+            "key": "project-1790041463988-trace-3-青岚.png",
+            "name": "青岚.png",
+            "originalName": "青岚.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-3-4-trace03.webp"
+          },
+          {
+            "key": "project-1790041463988-trace-4-微信图片_20260924143925_899_2.png",
+            "name": "微信图片_20260924143925_899_2.png",
+            "originalName": "微信图片_20260924143925_899_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-3-5-trace04.webp"
+          },
+          {
+            "key": "project-1790041463988-trace-5-微信图片_20260924144359_900_2.png",
+            "name": "微信图片_20260924144359_900_2.png",
+            "originalName": "微信图片_20260924144359_900_2.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-3-6-trace05.webp"
+          },
+          {
+            "key": "project-1790041463988-trace-6-小满.png",
+            "name": "小满.png",
+            "originalName": "小满.png",
+            "type": "image",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-3-7-trace06.webp"
           }
         ]
       },
