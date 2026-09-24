@@ -1,5 +1,5 @@
 {
-  "packageVersion": "ai-order-20260924-1120",
+  "packageVersion": "tvc-add4-20260924-1135",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -2175,6 +2175,90 @@
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-44-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790221062252",
+        "title": "《戴森吹风机》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-45-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "戴森吹风机_康钰_20260821_V002.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790221062252-tvc-戴森吹风机_康钰_20260821_V002.mp4",
+            "name": "戴森吹风机_康钰_20260821_V002.mp4",
+            "originalName": "戴森吹风机_康钰_20260821_V002.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-45-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790221062253",
+        "title": "《MANNER咖啡趣味宣传》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-46-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "咖啡_康钰_20260827_v001.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790221062253-tvc-咖啡_康钰_20260827_v001.mp4",
+            "name": "咖啡_康钰_20260827_v001.mp4",
+            "originalName": "咖啡_康钰_20260827_v001.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-46-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790221062254",
+        "title": "《威露士洗衣液》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-47-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "威露士洗衣液_康钰_20260818_V002.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790221062254-tvc-威露士洗衣液_康钰_20260818_V002.mp4",
+            "name": "威露士洗衣液_康钰_20260818_V002.mp4",
+            "originalName": "威露士洗衣液_康钰_20260818_V002.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-47-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790221062255",
+        "title": "《Wilson品牌宣传》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-48-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "Wilson_康钰_20260826_V001.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790221062255-tvc-Wilson_康钰_20260826_V001.mp4",
+            "name": "Wilson_康钰_20260826_V001.mp4",
+            "originalName": "Wilson_康钰_20260826_V001.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-48-1-media.mp4"
           }
         ]
       }
