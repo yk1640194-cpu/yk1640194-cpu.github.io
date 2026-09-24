@@ -1659,7 +1659,7 @@ button.visual-detail-item {
 .hero-title-lockup { left: 36px; top: 32%; width: min(680px, 48vw); transform: none; }
 
 @media (max-width: 900px) {
-  .hero-tech-layer { background-position: 58% center; }
+  .hero-tech-layer { background-position: 50% center; }
   .hero-bg::after { background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.18) 48%, rgba(255,255,255,0.92) 88%, #fff 100%); }
   .hero-title-lockup { left: 24px; top: 28%; width: calc(100vw - 48px); transform: none; }
 }
