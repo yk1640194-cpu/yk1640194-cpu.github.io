@@ -1,5 +1,5 @@
 {
-  "packageVersion": "lightbox-nav-20260924-1630",
+  "packageVersion": "tvc-add3-20260924",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -2603,6 +2603,69 @@
             "type": "video",
             "transcodeError": "",
             "src": "assets/portfolio-media/work-48-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790247349689",
+        "title": "《Grove Co清洁喷雾》",
+        "category": "TVC广告",
+        "description": "信息流口播",
+        "image": "",
+        "video": "assets/portfolio-media/work-49-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "f2c54dd54f8890e915046e1492493445_raw.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790247349689-tvc-f2c54dd54f8890e915046e1492493445_raw.mp4",
+            "name": "f2c54dd54f8890e915046e1492493445_raw.mp4",
+            "originalName": "f2c54dd54f8890e915046e1492493445_raw.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-49-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790247349690",
+        "title": "《HM皮衣》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-50-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "952229116c39c4731319d6e4557924e3_raw.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790247349690-tvc-952229116c39c4731319d6e4557924e3_raw.mp4",
+            "name": "952229116c39c4731319d6e4557924e3_raw.mp4",
+            "originalName": "952229116c39c4731319d6e4557924e3_raw.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-50-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790247349691",
+        "title": "《XUJING连衣裙》",
+        "category": "TVC广告",
+        "description": "信息流口播",
+        "image": "",
+        "video": "assets/portfolio-media/work-51-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "78a463eb15431fea0537fa5602b279a9_raw.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790247349691-tvc-78a463eb15431fea0537fa5602b279a9_raw.mp4",
+            "name": "78a463eb15431fea0537fa5602b279a9_raw.mp4",
+            "originalName": "78a463eb15431fea0537fa5602b279a9_raw.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-51-1-media.mp4"
           }
         ]
       }
