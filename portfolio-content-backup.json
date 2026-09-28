@@ -1,5 +1,5 @@
 {
-  "packageVersion": "tvc-add3-20260924",
+  "packageVersion": "rename-tvc-20260928",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -2608,7 +2608,7 @@
       },
       {
         "id": "project-1790247349689",
-        "title": "《Grove Co清洁喷雾》",
+        "title": "《蓝色格纹连衣裙口播》",
         "category": "TVC广告",
         "description": "信息流口播",
         "image": "",
@@ -2650,7 +2650,7 @@
       },
       {
         "id": "project-1790247349691",
-        "title": "《XUJING连衣裙》",
+        "title": "《油污清洁液口播》",
         "category": "TVC广告",
         "description": "信息流口播",
         "image": "",
