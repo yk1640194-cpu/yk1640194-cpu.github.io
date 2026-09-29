@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "rename-tvc-20260928",
+  "packageVersion": "tvc-add5-20260929",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -2666,6 +2666,48 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "",
             "src": "assets/portfolio-media/work-51-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790681965840",
+        "title": "《针织衫》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-52-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "康钰_针织衫测试成片.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790681965840-tvc-康钰_针织衫测试成片.mp4",
+            "name": "康钰_针织衫测试成片.mp4",
+            "originalName": "康钰_针织衫测试成片.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-52-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790681965841",
+        "title": "《耳机》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-53-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "康钰_测试成片.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790681965841-tvc-康钰_测试成片.mp4",
+            "name": "康钰_测试成片.mp4",
+            "originalName": "康钰_测试成片.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-53-1-media.mp4"
           }
         ]
       }
