@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "tvc-add5-20260929",
+  "packageVersion": "update-20260930",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -2708,6 +2708,27 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "",
             "src": "assets/portfolio-media/work-53-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1790779687122",
+        "title": "《手表》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-54-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "4c814c489cfc74bbcee604dd4f775266_raw.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1790779687122-tvc-4c814c489cfc74bbcee604dd4f775266_raw.mp4",
+            "name": "4c814c489cfc74bbcee604dd4f775266_raw.mp4",
+            "originalName": "4c814c489cfc74bbcee604dd4f775266_raw.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-54-1-media.mp4"
           }
         ]
       }
