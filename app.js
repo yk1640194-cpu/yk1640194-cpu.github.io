@@ -38,7 +38,7 @@
   const data =
     savedData && savedData.packageVersion === packagedContent.packageVersion ? savedData : packagedContent;
   if (!data.gallery.categories.includes("TVC广告")) {
-    const aiVideoIndex = data.gallery.categories.indexOf("AI视频");
+    const aiVideoIndex = data.gallery.categories.indexOf("短片");
     data.gallery.categories.splice(aiVideoIndex + 1, 0, "TVC广告");
     if (data === savedData) storageSet("portfolioContentDraft", JSON.stringify(data));
   }
@@ -88,7 +88,7 @@
   let heroDragStart = { x: 0, y: 0 };
   let heroResizing = false;
   let heroResizeStart = { x: 0, scale: 1 };
-  const aiVideoCategory = "AI视频";
+  const aiVideoCategory = "短片";
   const detailCategories = new Set(["视觉设计", "概念设计", "3D生成"]);
   const isLocalPreview = ["localhost", "127.0.0.1", ""].includes(window.location.hostname);
   const canEdit =
@@ -482,7 +482,7 @@
     const appScript = `
       const portfolioData = ${JSON.stringify(staticData)};
       const detailCategories = new Set(["视觉设计", "概念设计", "3D生成"]);
-      const aiVideoCategory = "AI视频";
+      const aiVideoCategory = "短片";
       const $ = (selector) => document.querySelector(selector);
       const $$ = (selector) => Array.from(document.querySelectorAll(selector));
       function isVideoMedia(media){ return media?.type === "video" || /\\.(mp4|mov|m4v|webm)$/i.test(media?.name || media?.src || ""); }
@@ -749,14 +749,39 @@
 
   function createVideo(src, title, options = {}) {
     const video = document.createElement("video");
-    video.src = src;
     video.controls = options.controls !== false;
     video.playsInline = true;
-    video.preload = "metadata";
     if (options.poster) video.poster = options.poster;
     if (options.controls === false) {
       video.muted = true;
       video.setAttribute("aria-label", title || "作品视频预览");
+    }
+    const lazy = options.lazy !== false;
+    if (src) {
+      if (lazy) {
+        video.preload = "none";
+        video.dataset.src = src;
+        if (!window.__portfolioVideoObserver) {
+          window.__portfolioVideoObserver = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                const v = entry.target;
+                if (v.dataset.src) {
+                  v.src = v.dataset.src;
+                  v.removeAttribute("data-src");
+                }
+                window.__portfolioVideoObserver.unobserve(v);
+              });
+            },
+            { rootMargin: "300px 0px" }
+          );
+        }
+        window.__portfolioVideoObserver.observe(video);
+      } else {
+        video.preload = "metadata";
+        video.src = src;
+      }
     }
     if (options.fallback !== false) {
       video.addEventListener(
@@ -1301,6 +1326,15 @@
     modal.classList.toggle("modal--visual", hasExpandedDetail(project));
     media.classList.remove("media--portrait", "media--landscape");
     media.replaceChildren(createDetailMedia(project));
+    // 模态在 hidden 状态下创建视频，IntersectionObserver 不会触发；手动把懒加载视频立即载入，避免点击后黑屏/打不开
+    media.querySelectorAll("video[data-src]").forEach((videoEl) => {
+      if (videoEl.dataset.src) {
+        videoEl.preload = "auto";
+        videoEl.src = videoEl.dataset.src;
+        videoEl.removeAttribute("data-src");
+        if (window.__portfolioVideoObserver) window.__portfolioVideoObserver.unobserve(videoEl);
+      }
+    });
     setText("[data-modal-category]", project.category);
     setText("[data-modal-title]", project.title);
     setText("[data-modal-desc]", project.description);

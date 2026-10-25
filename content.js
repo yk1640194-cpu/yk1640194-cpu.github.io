@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "update-20260930",
+  "packageVersion": "update-20261025v2",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -71,7 +71,7 @@ window.portfolioContent = {
     "title": "",
     "allLabel": "全部",
     "categories": [
-      "AI视频",
+      "短片",
       "TVC广告",
       "视觉设计",
       "概念设计"
@@ -80,7 +80,7 @@ window.portfolioContent = {
       {
         "id": "project-1790041464654",
         "title": "《和亲》",
-        "category": "AI视频",
+        "category": "短片",
         "description": "以古代宫廷“和亲”背景为叙事切口，创作一支具有悬疑感的古风剧情短片。视觉上以冷灰青色调、幽深宫墙与克制光影建立压抑的宫廷氛围，通过人物对峙、长廊行进与空间关系强化权力感与戏剧张力。\n\n创作中重点围绕“人物关系与情绪递进”展开，以短镜头快速建立女主、皇后等角色之间的矛盾，并通过留白与信息悬置制造剧情钩子。结合 AIGC 完成人物设定、场景构建、分镜设计与后期整合，使传统古装题材呈现出更具电影感和叙事张力的视觉表达。\n",
         "image": "",
         "video": "assets/portfolio-media/work-4-1-_-_20260918_V002.mp4",
@@ -173,7 +173,7 @@ window.portfolioContent = {
       {
         "id": "project-1790041463660",
         "title": "《风把信送到了》",
-        "category": "AI视频",
+        "category": "短片",
         "description": "《风把信送到了》\n故事围绕女孩小葵与一封被风吹走的信展开。她骑车追随信件穿过小镇、麦田与山坡，在追逐中逐渐理解离别、陪伴与归来的意义。风送走的不只是一封信，也承载着一个孩子最纯粹的思念。\n\n以「思念、等待与成长」为核心，创作一支治愈系二维动画短片。独立完成故事构思、角色与场景设定、AI视觉生成、分镜设计及后期剪辑，以低饱和手绘质感与温暖自然光统一全片视觉。\n",
         "image": "",
         "video": "assets/portfolio-media/work-2-1-_-_20260909_V003.mp4",
@@ -258,7 +258,7 @@ window.portfolioContent = {
       {
         "id": "project-1790041463988",
         "title": "《白露》",
-        "category": "AI视频",
+        "category": "短片",
         "description": "以二十四节气「白露」为创作主题，将传统节气文化转化为具有”东方美学气质的诗意影像“。从“暑气渐退、秋意初生”的时节感受出发，以露、水汽、草木与晨光等自然意象构建视觉语言，通过低饱和色彩、留白构图与柔和光影，营造清冷、克制而宁静的初秋氛围。\n\n创作上弱化直白的信息表达，更注重情绪、节奏与意境，结合 AIGC 完成人物/场景视觉、镜头设计与后期整合，让传统节气不只是知识呈现，而成为一种可被感知的东方生活美学。\n",
         "image": "",
         "video": "assets/portfolio-media/work-3-1-_-_20260912_V001.mp4",
@@ -327,7 +327,7 @@ window.portfolioContent = {
       {
         "id": "project-1790041463357",
         "title": "《Zima Blue》 ",
-        "category": "AI视频",
+        "category": "短片",
         "description": "以「记忆、身份与回归本源」为核心，对科幻世界进行个人化视觉重构。独立完成故事梳理、角色与场景设定、AI视觉生成、分镜设计、镜头衔接及后期剪辑，以高饱和 Zima Blue 贯穿艺术展览、人物访谈、机械生命回溯与泳池终章，在写实电影感、二维动画与未来主义视觉之间建立统一的美术语言，完成一支叙事短片。\n\n《Zima Blue》的核心意义在于​​对初心与本质回归的极致追寻​​。\n​​初心即终点​​：齐马穷尽一生在宇宙中寻找的终极色彩，其实只是他作为泳池清洁机器人时，第一眼看到的蓝色瓷砖。它象征着生命最初、最纯粹的悸动与锚点。\n\n​​成长是剥离​​：故事挑战了“不断做加法”的进步论。真正的圆满不是不断叠加身份、能力和光环，而是剥离外界赋予的期待与铠甲，回归最本真的自己。\n\n​​本自具足​​：这像是一场“明心见性”的过程。我们终其一生苦苦追寻的意义与答案，往往在出发时就已经拥有，无需向外索求。\n\n​​纯粹的热爱​​：齐马最终放弃全知全能的智慧，选择回到泳池重复最简单的清洁工作。这告诉我们，最高级的探索不是奔赴浩瀚宇宙，而是守住内心那份最简单、最热烈的热爱。\n\n正如齐马最后所说：“我对真相的探索终于结束了，我要回家了。”",
         "image": "",
         "video": "assets/portfolio-media/work-1-1-Zima-Blue-_-_20260901_V004.mp4",
@@ -348,7 +348,7 @@ window.portfolioContent = {
       {
         "id": "project-1790041464988",
         "title": "《如梦令》",
-        "category": "AI视频",
+        "category": "短片",
         "description": "《如梦令》\n\n以李清照《如梦令·常记溪亭日暮》为创作灵感，打造一支具有东方美学气质的古风诗词影像。通过夕阳、荷塘、轻舟与鸥鹭等东方意象，结合低饱和色彩与电影化光影，营造清雅、诗意而富有生命力的视觉氛围。\n\n影片将古典诗词转化为动态叙事，从醉意晚归、误入藕花，到惊起一滩鸥鹭，呈现少女李清照自由、灵动、浪漫的一面，让传统诗意以更年轻、更具视觉感染力的方式被重新表达。",
         "image": "",
         "video": "assets/portfolio-media/work-5-1-_-_20260919_V001.mp4",
@@ -369,7 +369,7 @@ window.portfolioContent = {
       {
         "id": "project-1790041468411",
         "title": "《他不是普通人》",
-        "category": "AI视频",
+        "category": "短片",
         "description": "以“萌宠外形 × 生死追逃 × 身份悬念”为核心创作方向，通过一只不断遭遇死亡危机的小猫切入故事，在可爱角色形象与高压逃生情境之间制造强烈反差。\n\n剧情设计上，开场直接进入追杀状态，借助系统提示、角色内心独白与追踪者逼近快速建立危机，让观众第一时间理解“小猫正在逃命”这一核心矛盾。随后通过小猫主动寻找藏身目标、躲进陌生男人背包的情节完成第一次转折——原本只是为了暂时避险，却意外进入了另一个未知人物的视线，使故事从单纯追逃进一步转向“身份谜团”。\n\n视觉设计整体采用冷蓝灰色调，以雨夜街巷、潮湿地面反光、昏暗环境光和局部暖色灯光建立悬疑氛围。镜头上大量使用低机位、近景与局部特写贴近小猫视角，让观众更直接感受到角色的弱小与紧张；当神秘男人出现后，则逐渐增加人物眼神、动作与背包细节的特写，使叙事节奏从“逃亡”过渡到“被发现”。",
         "image": "",
         "video": "assets/portfolio-media/work-6-1-media.mp4",
@@ -2729,6 +2729,69 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "",
             "src": "assets/portfolio-media/work-54-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1792914058156",
+        "title": "《剧情信息流01》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-55-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "kangyu.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1792914058156-tvc-kangyu.mp4",
+            "name": "kangyu.mp4",
+            "originalName": "kangyu.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-55-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1792914059156",
+        "title": "《剧情信息流02》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-56-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "信息流_胶囊精华油_康钰_20261015_V001-封面.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1792914059156-tvc-信息流_胶囊精华油_康钰_20261015_V001-封面.mp4",
+            "name": "信息流_胶囊精华油_康钰_20261015_V001-封面.mp4",
+            "originalName": "信息流_胶囊精华油_康钰_20261015_V001-封面.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-56-1-media.mp4"
+          }
+        ]
+      },
+      {
+        "id": "project-1792914060156",
+        "title": "《剧情信息流03》",
+        "category": "TVC广告",
+        "description": "",
+        "image": "",
+        "video": "assets/portfolio-media/work-57-1-media.mp4",
+        "mediaKey": "",
+        "mediaName": "康钰_胶囊精华油_V004.mp4",
+        "mediaType": "video",
+        "mediaKeys": [
+          {
+            "key": "project-1792914060156-tvc-康钰_胶囊精华油_V004.mp4",
+            "name": "康钰_胶囊精华油_V004.mp4",
+            "originalName": "康钰_胶囊精华油_V004.mp4",
+            "type": "video",
+            "transcodeError": "",
+            "src": "assets/portfolio-media/work-57-1-media.mp4"
           }
         ]
       }
