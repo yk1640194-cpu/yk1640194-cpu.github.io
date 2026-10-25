@@ -770,15 +770,19 @@
                 if (v.dataset.src) {
                   v.src = v.dataset.src;
                   v.removeAttribute("data-src");
-                  v.preload = "metadata";
-                  v.addEventListener(
-                    "loadedmetadata",
-                    () => {
-                      try { v.currentTime = 0.1; } catch (err) { /* ignore */ }
-                    },
-                    { once: true }
-                  );
-                  v.load();
+                  if (v.getAttribute("poster")) {
+                    v.load();
+                  } else {
+                    v.preload = "metadata";
+                    v.addEventListener(
+                      "loadedmetadata",
+                      () => {
+                        try { v.currentTime = 0.1; } catch (err) { /* ignore */ }
+                      },
+                      { once: true }
+                    );
+                    v.load();
+                  }
                 }
                 window.__portfolioVideoObserver.unobserve(v);
               });
@@ -999,6 +1003,7 @@
     if (videoSrc) {
       videoStage.appendChild(
         createVideo(videoSrc, videoMedia.name || project.title, {
+          poster: project.image || "",
           repair: async (status) => {
             const nextSrc = await replaceProjectMediaWithCompatibleVideo(project, videoMedia, status);
             renderGallery();
