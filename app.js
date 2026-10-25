@@ -770,6 +770,15 @@
                 if (v.dataset.src) {
                   v.src = v.dataset.src;
                   v.removeAttribute("data-src");
+                  v.preload = "metadata";
+                  v.addEventListener(
+                    "loadedmetadata",
+                    () => {
+                      try { v.currentTime = 0.1; } catch (err) { /* ignore */ }
+                    },
+                    { once: true }
+                  );
+                  v.load();
                 }
                 window.__portfolioVideoObserver.unobserve(v);
               });
