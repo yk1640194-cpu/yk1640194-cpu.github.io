@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "update-20261025v5",
+  "packageVersion": "update-20261028v6",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -252,75 +252,6 @@ window.portfolioContent = {
             "type": "image",
             "transcodeError": "",
             "src": "assets/portfolio-media/work-2-9-trace08.webp"
-          }
-        ]
-      },
-      {
-        "id": "project-1790041463988",
-        "title": "《白露》",
-        "category": "短片",
-        "description": "以二十四节气「白露」为创作主题，将传统节气文化转化为具有”东方美学气质的诗意影像“。从“暑气渐退、秋意初生”的时节感受出发，以露、水汽、草木与晨光等自然意象构建视觉语言，通过低饱和色彩、留白构图与柔和光影，营造清冷、克制而宁静的初秋氛围。\n\n创作上弱化直白的信息表达，更注重情绪、节奏与意境，结合 AIGC 完成人物/场景视觉、镜头设计与后期整合，让传统节气不只是知识呈现，而成为一种可被感知的东方生活美学。\n",
-        "image": "",
-        "video": "assets/portfolio-media/work-3-1-_-_20260912_V001.mp4",
-        "mediaKey": "",
-        "mediaName": "《二十四节气 · 白露》_康钰_20260912_V001.mp4、禾青.png、露娘.png、青岚.png、微信图片_20260924143925_899_2.png、微信图片_20260924144359_900_2.png、小满.png",
-        "mediaType": "video",
-        "mediaKeys": [
-          {
-            "key": "project-1790041463988-1790041529596-exivpprnrgm-《二十四节气 · 白露》_康钰_20260912_V001.mp4",
-            "name": "《二十四节气 · 白露》_康钰_20260912_V001.mp4",
-            "originalName": "《二十四节气 · 白露》_康钰_20260912_V001.mp4",
-            "type": "video",
-            "transcodeError": "自动转码失败，已保留原视频",
-            "src": "assets/portfolio-media/work-3-1-_-_20260912_V001.mp4"
-          },
-          {
-            "key": "project-1790041463988-trace-1-禾青.png",
-            "name": "禾青.png",
-            "originalName": "禾青.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-3-2-trace01.webp"
-          },
-          {
-            "key": "project-1790041463988-trace-2-露娘.png",
-            "name": "露娘.png",
-            "originalName": "露娘.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-3-3-trace02.webp"
-          },
-          {
-            "key": "project-1790041463988-trace-3-青岚.png",
-            "name": "青岚.png",
-            "originalName": "青岚.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-3-4-trace03.webp"
-          },
-          {
-            "key": "project-1790041463988-trace-4-微信图片_20260924143925_899_2.png",
-            "name": "微信图片_20260924143925_899_2.png",
-            "originalName": "微信图片_20260924143925_899_2.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-3-5-trace04.webp"
-          },
-          {
-            "key": "project-1790041463988-trace-5-微信图片_20260924144359_900_2.png",
-            "name": "微信图片_20260924144359_900_2.png",
-            "originalName": "微信图片_20260924144359_900_2.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-3-6-trace05.webp"
-          },
-          {
-            "key": "project-1790041463988-trace-6-小满.png",
-            "name": "小满.png",
-            "originalName": "小满.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-3-7-trace06.webp"
           }
         ]
       },
@@ -628,27 +559,6 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-10-1-gentlemeerkats-_-_20260912_V001.mp4"
-          }
-        ]
-      },
-      {
-        "id": "project-1790041472620",
-        "title": "《 Nocs Provisions Zoom 望远镜》",
-        "category": "TVC广告",
-        "description": "本片围绕 Nocs Provisions Zoom 望远镜展开创作，核心目的不是单纯展示产品造型与倍率参数，而是希望通过影像让观众感受到「观察」本身的魅力——那些肉眼容易忽略的细节，都可以因为一次靠近而被重新发现。影片从眼睛特写切入，将人物视线、水滴微观世界、夜空银河与望远镜视野进行串联，在“极近”与“极远”之间建立视觉反差，直观传递产品延伸视野、探索未知的核心价值。橙色机身则在深蓝环境中形成强烈品牌识别。最终希望将望远镜从单一户外装备转化为连接人与自然、日常与宇宙的探索工具，让「LOOK CLOSER」成为产品功能之外更具情绪价值的品牌表达。",
-        "image": "",
-        "video": "assets/portfolio-media/work-11-1-Nocs-Provisions-Zoom_-_20260914_v3.mp4",
-        "mediaKey": "",
-        "mediaName": "Nocs Provisions Zoom_康舟_20260914_v3.mp4",
-        "mediaType": "video",
-        "mediaKeys": [
-          {
-            "key": "project-1790041472620-1790041601207-1hvkdagv52d-Nocs Provisions Zoom_康舟_20260914_v3.mp4",
-            "name": "Nocs Provisions Zoom_康舟_20260914_v3.mp4",
-            "originalName": "Nocs Provisions Zoom_康舟_20260914_v3.mp4",
-            "type": "video",
-            "transcodeError": "自动转码失败，已保留原视频",
-            "src": "assets/portfolio-media/work-11-1-Nocs-Provisions-Zoom_-_20260914_v3.mp4"
           }
         ]
       },
