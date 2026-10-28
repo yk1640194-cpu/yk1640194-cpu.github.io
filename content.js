@@ -1,5 +1,5 @@
 window.portfolioContent = {
-  "packageVersion": "update-20261028v6",
+  "packageVersion": "update-20261028v7",
   "siteName": "AIGC VISUAL DESIGNER",
   "navigation": {
     "menuLabel": "菜单",
@@ -294,27 +294,6 @@ window.portfolioContent = {
             "type": "video",
             "transcodeError": "自动转码失败，已保留原视频",
             "src": "assets/portfolio-media/work-5-1-_-_20260919_V001.mp4"
-          }
-        ]
-      },
-      {
-        "id": "project-1790041468411",
-        "title": "《他不是普通人》",
-        "category": "短片",
-        "description": "以“萌宠外形 × 生死追逃 × 身份悬念”为核心创作方向，通过一只不断遭遇死亡危机的小猫切入故事，在可爱角色形象与高压逃生情境之间制造强烈反差。\n\n剧情设计上，开场直接进入追杀状态，借助系统提示、角色内心独白与追踪者逼近快速建立危机，让观众第一时间理解“小猫正在逃命”这一核心矛盾。随后通过小猫主动寻找藏身目标、躲进陌生男人背包的情节完成第一次转折——原本只是为了暂时避险，却意外进入了另一个未知人物的视线，使故事从单纯追逃进一步转向“身份谜团”。\n\n视觉设计整体采用冷蓝灰色调，以雨夜街巷、潮湿地面反光、昏暗环境光和局部暖色灯光建立悬疑氛围。镜头上大量使用低机位、近景与局部特写贴近小猫视角，让观众更直接感受到角色的弱小与紧张；当神秘男人出现后，则逐渐增加人物眼神、动作与背包细节的特写，使叙事节奏从“逃亡”过渡到“被发现”。",
-        "image": "",
-        "video": "assets/portfolio-media/work-6-1-media.mp4",
-        "mediaKey": "",
-        "mediaName": "第一集.mp4",
-        "mediaType": "video",
-        "mediaKeys": [
-          {
-            "key": "project-1790041468411-1790149807304-tun7l7ub0fn-第一集.mp4",
-            "name": "第一集.mp4",
-            "originalName": "第一集.mp4",
-            "type": "video",
-            "transcodeError": "自动转码失败，已保留原视频",
-            "src": "assets/portfolio-media/work-6-1-media.mp4"
           }
         ]
       },
@@ -815,83 +794,6 @@ window.portfolioContent = {
             "type": "image",
             "transcodeError": "",
             "src": "assets/portfolio-media/work-19-12-12.webp"
-          }
-        ]
-      },
-      {
-        "id": "project-1790041478592",
-        "title": "《鼠标》亚马逊A+设计",
-        "category": "视觉设计",
-        "description": "",
-        "image": "assets/portfolio-media/work-20-1-media.webp",
-        "video": "",
-        "mediaKey": "",
-        "mediaName": "主图01.png、主图02.png、主图03.png、主图04.png、主图05.png、主图06.png、主图07.png、详情页.png",
-        "mediaType": "image",
-        "mediaKeys": [
-          {
-            "key": "project-1790041478592-mouse-1-主图01.png",
-            "name": "主图01.png",
-            "originalName": "主图01.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-1-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-2-主图02.png",
-            "name": "主图02.png",
-            "originalName": "主图02.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-2-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-3-主图03.png",
-            "name": "主图03.png",
-            "originalName": "主图03.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-3-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-4-主图04.png",
-            "name": "主图04.png",
-            "originalName": "主图04.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-4-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-5-主图05.png",
-            "name": "主图05.png",
-            "originalName": "主图05.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-5-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-6-主图06.png",
-            "name": "主图06.png",
-            "originalName": "主图06.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-6-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-7-主图07.png",
-            "name": "主图07.png",
-            "originalName": "主图07.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-7-media.webp"
-          },
-          {
-            "key": "project-1790041478592-mouse-detail-详情页.png",
-            "name": "详情页.png",
-            "originalName": "详情页.png",
-            "type": "image",
-            "transcodeError": "",
-            "src": "assets/portfolio-media/work-20-8-media.webp"
           }
         ]
       },
