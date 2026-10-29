@@ -490,7 +490,7 @@
       function primaryMedia(project){ const medias = projectMedias(project); return project.category === aiVideoCategory ? (medias.find(isVideoMedia) || medias[0] || null) : (medias[0] || null); }
       function mediaSrc(project){ const media = primaryMedia(project); return media?.src || project.image || project.video || ""; }
       function mediaType(project){ const media = primaryMedia(project); return media ? (isVideoMedia(media) ? "video" : "image") : (project.video ? "video" : "image"); }
-      function renderMedia(src,type,title){ if(!src) return '<div class="work-placeholder"><span>媒体未导出成功</span><strong>'+title+'</strong></div>'; return type === "video" ? '<video src="'+src+'" controls playsinline preload="metadata"></video>' : '<img src="'+src+'" alt="'+title+'">'; }
+      function renderMedia(src,type,title){ if(!src) return '<div class="work-placeholder"><span>媒体未导出成功</span><strong>'+title+'</strong></div>'; if(type === "video"){ var pm = src.replace(/\.(mp4|mov|m4v|webm)$/i,"-poster.jpg"); return '<video src="'+src+'" poster="'+pm+'" controls playsinline preload="metadata"></video>'; } return '<img src="'+src+'" alt="'+title+'">'; }
       function openModal(project){
         const modal = $('[data-modal]');
         const media = $('[data-modal-media]');
@@ -751,7 +751,19 @@
     const video = document.createElement("video");
     video.controls = options.controls !== false;
     video.playsInline = true;
-    if (options.poster) video.poster = options.poster;
+    // 自动从视频路径推导封面图（work-XX-..mp4 → work-XX-..-poster.jpg），卡片秒显图、不再黑框等视频
+    const poster = options.poster || (src && /portfolio-media\//.test(src) ? src.replace(/\.(mp4|mov|m4v|webm)$/i, "-poster.jpg") : "");
+    if (poster) video.poster = poster;
+    // 卡片预览（无控件）：只渲染封面图，绝不下载视频字节。点开弹窗才加载视频，移动端秒显且省流量
+    if (options.controls === false && poster) {
+      const img = document.createElement("img");
+      img.src = poster;
+      img.alt = title || "作品封面";
+      img.loading = "lazy";
+      img.decoding = "async";
+      applyMediaOrientation(img);
+      return img;
+    }
     if (options.controls === false) {
       video.muted = true;
       video.setAttribute("aria-label", title || "作品视频预览");
@@ -1343,7 +1355,8 @@
     // 模态在 hidden 状态下创建视频，IntersectionObserver 不会触发；手动把懒加载视频立即载入，避免点击后黑屏/打不开
     media.querySelectorAll("video[data-src]").forEach((videoEl) => {
       if (videoEl.dataset.src) {
-        videoEl.preload = "auto";
+        // 仅拉元数据，点击播放才按需流式加载；配 faststart 可边下边播，避免移动端一次性下载整段导致黑屏/超时
+        videoEl.preload = "metadata";
         videoEl.src = videoEl.dataset.src;
         videoEl.removeAttribute("data-src");
         if (window.__portfolioVideoObserver) window.__portfolioVideoObserver.unobserve(videoEl);
